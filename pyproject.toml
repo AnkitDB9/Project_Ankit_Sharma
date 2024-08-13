@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "project-ankit-sharma"
+version = "0.1.0"
+description = ""
+authors = ["AnkitDB9 <ankit1397sharma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
