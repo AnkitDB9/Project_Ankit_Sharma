@@ -5,7 +5,7 @@ from sqlite3 import Connection
 def generate_ratings(conn: Connection):
     """Generate random product ratings and insert them into the Ratings table."""
     cursor = conn.cursor()
-
+aaa
     # Create Ratings table
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS Ratings (
